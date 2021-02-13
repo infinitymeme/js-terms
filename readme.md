@@ -87,7 +87,9 @@ myVariable = "goodbye!"; // redefinition
 ## Indexing
 > pulling a value out of an array by its position
 
-**Symbols:** `array[0]`, `array[number]`
+**Symbols:** `arrayName[☆]`
+
+(☆ is an epression that evaluates to a number)
 
 ---
 ### Example 1: basic indexing
@@ -112,7 +114,9 @@ myArray[index.length-1] //produces 3, AKA the item at the last index
 ## Calling
 > running the code of a function
 
-**Symbols:** `()`, `(x, y, z)`
+**Symbols:** `functionName(☆)`
+
+(☆ is appropriate inputs for the function)
 
 ---
 ### Example 1: console.log is a function!
